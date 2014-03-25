@@ -15,7 +15,7 @@
  */
 package grails.plugins.decorator
 
-import com.petebevin.markdown.MarkdownProcessor
+import org.markdownj.MarkdownProcessor
 
 class MarkdownDecorator {
 

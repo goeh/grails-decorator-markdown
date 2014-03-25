@@ -4,8 +4,7 @@ grails.project.test.reports.dir = "target/test-reports"
 
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
-    inherits("global") {
-    }
+    inherits("global")
     log "warn"
     legacyResolve false
     repositories {
@@ -14,7 +13,7 @@ grails.project.dependency.resolution = {
         mavenRepo "http://labs.technipelago.se/repo/plugins-releases-local/"
     }
     dependencies {
-        compile "org.markdownj:markdownj:0.3.0-1.0.2b4"
+        compile "org.markdownj:markdownj-core:0.4"
     }
 
     plugins {
