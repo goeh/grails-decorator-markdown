@@ -19,8 +19,6 @@ import org.markdownj.MarkdownProcessor
 
 class MarkdownDecorator {
 
-    def enabled = false
-
     String decorate(String text, Map params) {
         new MarkdownProcessor().markdown(text).trim()
     }

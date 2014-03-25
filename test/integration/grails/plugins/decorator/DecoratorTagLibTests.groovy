@@ -17,7 +17,6 @@
 package grails.plugins.decorator
 
 import grails.test.GroovyPagesTestCase
-import org.junit.Before
 
 class DecoratorTagLibTests extends GroovyPagesTestCase {
 
@@ -37,9 +36,9 @@ class DecoratorTagLibTests extends GroovyPagesTestCase {
         assert list.contains('abbreviateDecorator')
         assert list.contains('telephoneDecorator')
         assert list.contains('urlDecorator')
+        assert list.contains('markdownDecorator')
 
-        assert !list.contains('jiraDecorator')
-        assert !list.contains('markdownDecorator')
+        assert !list.contains('jiraDecorator') // JIRA is not enabled by default
     }
 
     void testMarkdown() {
