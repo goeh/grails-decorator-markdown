@@ -10,7 +10,6 @@ grails.project.dependency.resolution = {
     repositories {
         grailsCentral()
         mavenCentral()
-        mavenRepo "http://labs.technipelago.se/repo/plugins-releases-local/"
     }
     dependencies {
         compile "org.markdownj:markdownj-core:0.4"
