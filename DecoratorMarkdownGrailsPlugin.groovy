@@ -28,7 +28,7 @@ Adds Markdown support to the decorator-plugin.
 It uses the MarkdownJ (http://markdownj.org) library by Alex Coles
 '''
 
-    def documentation = "http://grails.org/plugin/decorator-markdown"
+    def documentation = "https://github.com/goeh/grails-decorator-markdown"
     def license = "APACHE"
     def organization = [ name: "Technipelago AB", url: "http://www.technipelago.se/" ]
 
