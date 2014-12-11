@@ -25,7 +25,7 @@ This plugin is **awesome!**
 
 You can use this plugin in your Grails application to allow your users to add markdown syntax to user profiles, comments, etc.
 
-The source code for this decorator is **very** simple. It uses the [MarkdownJ](http://markdownj.org) library by Alex Coles:
+The source code for this decorator is **very** simple. It uses the [MarkdownJ](https://github.com/myabc/markdownj) library:
 
     class MarkdownDecorator {
 
